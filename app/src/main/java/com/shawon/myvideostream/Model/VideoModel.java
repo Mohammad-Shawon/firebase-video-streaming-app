@@ -1,12 +1,12 @@
 package com.shawon.myvideostream.Model;
 
-public class videoUploaderModel {
-    String videoTitle,videoUrl;
+public class VideoModel {
+    String videoTitle, videoUrl;
 
-    public videoUploaderModel() {
+    public VideoModel() {
     }
 
-    public videoUploaderModel(String videoTitle, String videoUrl) {
+    public VideoModel(String videoTitle, String videoUrl) {
         this.videoTitle = videoTitle;
         this.videoUrl = videoUrl;
     }
